@@ -1,0 +1,123 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/Joequick/SBBeaver/BeaverTail/Morphs/Joequick/Base/Twist%20All.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "joseph.hayworth",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2021-10-07T14:48:25Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "Twist All",
+			"name" : "Twist All",
+			"parent" : "/data/Joequick/SBBeaver/BeaverTail/Sobek%20Tail_2185.dsf#Sobek%20Tail_2185",
+			"presentation" : {
+				"type" : "",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0.1607843, 0.1607843, 0.1607843 ], [ 1, 1, 1 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "Twist All",
+				"label" : "Twist All",
+				"value" : 0,
+				"min" : -1,
+				"max" : 1,
+				"clamped" : true,
+				"display_as_percent" : true,
+				"step_size" : 0.04
+			},
+			"group" : "/Pose Controls",
+			"formulas" : [
+				{
+					"output" : "Tail1:/data/Joequick/SBBeaver/BeaverTail/Sobek%20Tail_2185.dsf#Tail1?rotation/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Sobek%20Tail_2185:#Twist%20All?value" },
+						{ "op" : "push", "val" : 45 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Tail2:/data/Joequick/SBBeaver/BeaverTail/Sobek%20Tail_2185.dsf#Tail2?rotation/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Sobek%20Tail_2185:#Twist%20All?value" },
+						{ "op" : "push", "val" : 45 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Tail3:/data/Joequick/SBBeaver/BeaverTail/Sobek%20Tail_2185.dsf#Tail3?rotation/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Sobek%20Tail_2185:#Twist%20All?value" },
+						{ "op" : "push", "val" : 45 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Tail4:/data/Joequick/SBBeaver/BeaverTail/Sobek%20Tail_2185.dsf#Tail4?rotation/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Sobek%20Tail_2185:#Twist%20All?value" },
+						{ "op" : "push", "val" : 45 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Tail5:/data/Joequick/SBBeaver/BeaverTail/Sobek%20Tail_2185.dsf#Tail5?rotation/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Sobek%20Tail_2185:#Twist%20All?value" },
+						{ "op" : "push", "val" : 45 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Tail6:/data/Joequick/SBBeaver/BeaverTail/Sobek%20Tail_2185.dsf#Tail6?rotation/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Sobek%20Tail_2185:#Twist%20All?value" },
+						{ "op" : "push", "val" : 45 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Tail7:/data/Joequick/SBBeaver/BeaverTail/Sobek%20Tail_2185.dsf#Tail7?rotation/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Sobek%20Tail_2185:#Twist%20All?value" },
+						{ "op" : "push", "val" : 45 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Tail8:/data/Joequick/SBBeaver/BeaverTail/Sobek%20Tail_2185.dsf#Tail8?rotation/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Sobek%20Tail_2185:#Twist%20All?value" },
+						{ "op" : "push", "val" : 45 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Tail9:/data/Joequick/SBBeaver/BeaverTail/Sobek%20Tail_2185.dsf#Tail9?rotation/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Sobek%20Tail_2185:#Twist%20All?value" },
+						{ "op" : "push", "val" : 45 },
+						{ "op" : "mult" }
+					]
+				}
+			]
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "Twist All-1",
+				"url" : "#Twist%20All"
+			}
+		]
+	}
+}

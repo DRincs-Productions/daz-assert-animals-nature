@@ -1,0 +1,38 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/Joequick/SBBeaver/Beaver%20Short%20Hairs/Morphs/Joequick/Base/alias_Strand-Based%20Hair%202_Parent%20Geometry.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "joseph.hayworth",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "0.0",
+		"modified" : "2021-10-19T18:52:38Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "Parent Geometry",
+			"name" : "Parent Geometry",
+			"parent" : "/data/Joequick/SBBeaver/Beaver%20Short%20Hairs/Strand-Based%20Hair%202.dsf#Strand-Based%20Hair%202",
+			"channel" : {
+				"id" : "value",
+				"type" : "alias",
+				"name" : "Parent Geometry",
+				"label" : "Parent Geometry",
+				"visible" : false,
+				"target_channel" : "Strand-Based%20Hair%202:/data/Joequick/SBBeaver/Beaver%20Short%20Hairs/Strand-Based%20Hair%202.dsf#Strand-Based%20Hair%202?extra/studio_node_channels/channels/Fit%20To"
+			},
+			"group" : "/General/Misc"
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "Parent Geometry-1",
+				"url" : "#Parent%20Geometry"
+			}
+		]
+	}
+}

@@ -1,0 +1,38 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/Joequick/SBBeaver/BeaverTailStrandBasedFur/Morphs/Joequick/Base/alias_Beaver%20Tail%20Strand%20Based%20Fur_Parent%20Geometry.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "joseph.hayworth",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "0.0",
+		"modified" : "2021-10-19T18:53:21Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "Parent Geometry",
+			"name" : "Parent Geometry",
+			"parent" : "/data/Joequick/SBBeaver/BeaverTailStrandBasedFur/Beaver%20Tail%20Strand%20Based%20Fur.dsf#Beaver%20Tail%20Strand%20Based%20Fur",
+			"channel" : {
+				"id" : "value",
+				"type" : "alias",
+				"name" : "Parent Geometry",
+				"label" : "Parent Geometry",
+				"visible" : false,
+				"target_channel" : "Beaver%20Tail%20Strand%20Based%20Fur:/data/Joequick/SBBeaver/BeaverTailStrandBasedFur/Beaver%20Tail%20Strand%20Based%20Fur.dsf#Beaver%20Tail%20Strand%20Based%20Fur?extra/studio_node_channels/channels/Fit%20To"
+			},
+			"group" : "/General/Misc"
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "Parent Geometry-1",
+				"url" : "#Parent%20Geometry"
+			}
+		]
+	}
+}

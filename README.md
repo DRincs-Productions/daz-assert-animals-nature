@@ -1,0 +1,1 @@
+[![Git Anti Virus Scan](https://github.com/DRincs-Productions/daz-assert-animals/actions/workflows/antivirus.yml/badge.svg)](https://github.com/DRincs-Productions/daz-assert-animals/actions/workflows/antivirus.yml)

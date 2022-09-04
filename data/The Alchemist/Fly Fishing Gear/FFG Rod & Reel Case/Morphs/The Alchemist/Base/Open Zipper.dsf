@@ -1,0 +1,94 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/The%20Alchemist/Fly%20Fishing%20Gear/FFG%20Rod%20%26%20Reel%20Case/Morphs/The%20Alchemist/Base/Open%20Zipper.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "The Alchemist",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2021-05-08T19:40:50Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "Open Zipper",
+			"name" : "Open Zipper",
+			"parent" : "/data/The%20Alchemist/Fly%20Fishing%20Gear/FFG%20Rod%20%26%20Reel%20Case/Rod%20and%20Reel%20Case_13942.dsf#Rod%20and%20Reel%20Case_13942",
+			"presentation" : {
+				"type" : "",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0.5019608, 0.2509804, 0.2509804 ], [ 1, 0.5019608, 0.5019608 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "Open Zipper",
+				"label" : "Open Zipper",
+				"value" : 0,
+				"min" : 0,
+				"max" : 1,
+				"clamped" : true,
+				"display_as_percent" : true,
+				"step_size" : 0.04
+			},
+			"group" : "/Pose Controls",
+			"formulas" : [
+				{
+					"output" : "Zipper%20Base:/data/The%20Alchemist/Fly%20Fishing%20Gear/FFG%20Rod%20%26%20Reel%20Case/Rod%20and%20Reel%20Case_13942.dsf#Zipper%20Base?translation/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Rod%20and%20Reel%20Case_13942:#Open%20Zipper?value" },
+						{ "op" : "push", "val" : [ 0, 0 ] },
+						{ "op" : "push", "val" : [ 0.4, -12.7 ] },
+						{ "op" : "push", "val" : [ 0.45, -13.2 ] },
+						{ "op" : "push", "val" : [ 0.59, -13.2 ] },
+						{ "op" : "push", "val" : [ 0.62, -12.7 ] },
+						{ "op" : "push", "val" : [ 1, 0 ] },
+						{ "op" : "push", "val" : 6 },
+						{ "op" : "spline_linear" }
+					]
+				},
+				{
+					"output" : "Zipper%20Base:/data/The%20Alchemist/Fly%20Fishing%20Gear/FFG%20Rod%20%26%20Reel%20Case/Rod%20and%20Reel%20Case_13942.dsf#Zipper%20Base?rotation/z",
+					"operations" : [
+						{ "op" : "push", "url" : "Rod%20and%20Reel%20Case_13942:#Open%20Zipper?value" },
+						{ "op" : "push", "val" : [ 0, 0 ] },
+						{ "op" : "push", "val" : [ 0.4, 0 ] },
+						{ "op" : "push", "val" : [ 0.45, 90 ] },
+						{ "op" : "push", "val" : [ 0.59, 90 ] },
+						{ "op" : "push", "val" : [ 0.61, 180 ] },
+						{ "op" : "push", "val" : [ 1, 180 ] },
+						{ "op" : "push", "val" : 6 },
+						{ "op" : "spline_linear" }
+					]
+				},
+				{
+					"output" : "Zipper%20Base:/data/The%20Alchemist/Fly%20Fishing%20Gear/FFG%20Rod%20%26%20Reel%20Case/Rod%20and%20Reel%20Case_13942.dsf#Zipper%20Base?translation/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Rod%20and%20Reel%20Case_13942:#Open%20Zipper?value" },
+						{ "op" : "push", "val" : [ 0, 0 ] },
+						{ "op" : "push", "val" : [ 0.4, 0 ] },
+						{ "op" : "push", "val" : [ 0.43, 0.25 ] },
+						{ "op" : "push", "val" : [ 0.45, 1 ] },
+						{ "op" : "push", "val" : [ 0.59, 5.3 ] },
+						{ "op" : "push", "val" : [ 0.6, 6.31 ] },
+						{ "op" : "push", "val" : [ 1, 6.31 ] },
+						{ "op" : "push", "val" : 7 },
+						{ "op" : "spline_linear" }
+					]
+				}
+			]
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "Open Zipper-1",
+				"url" : "#Open%20Zipper"
+			}
+		]
+	}
+}

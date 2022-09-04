@@ -1,0 +1,44 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/The%20Alchemist/Fly%20Fishing%20Gear/FFG%20Rod%20%26%20Reel%20Case/Morphs/The%20Alchemist/Base/alias_Rod%20and%20Reel%20Case_13942_ZRotate2.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "The Alchemist",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2021-05-08T19:40:50Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "ZRotate2",
+			"name" : "ZRotate2",
+			"parent" : "/data/The%20Alchemist/Fly%20Fishing%20Gear/FFG%20Rod%20%26%20Reel%20Case/Rod%20and%20Reel%20Case_13942.dsf#Rod%20and%20Reel%20Case_13942",
+			"presentation" : {
+				"type" : "Modifier/Pose",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0.3529412, 0.3529412, 0.3529412 ], [ 1, 1, 1 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "alias",
+				"name" : "ZRotate2",
+				"label" : "Rotate Pull",
+				"target_channel" : "Zipper%20Pull:/data/The%20Alchemist/Fly%20Fishing%20Gear/FFG%20Rod%20%26%20Reel%20Case/Rod%20and%20Reel%20Case_13942.dsf#Zipper%20Pull?rotation/z"
+			},
+			"group" : "/Pose Controls"
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "ZRotate2-1",
+				"url" : "#ZRotate2"
+			}
+		]
+	}
+}

@@ -1,0 +1,226 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/The%20Alchemist/Fly%20Fishing%20Gear/Fishing%20Line%20Cast/Morphs/The%20Alchemist/Base/Tippet%20Length.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "The Alchemist",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2021-05-04T03:33:38Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "Tippet Length",
+			"name" : "Tippet Length",
+			"parent" : "/data/The%20Alchemist/Fly%20Fishing%20Gear/Fishing%20Line%20Cast/Fishing%20Line%20Cast.dsf#Fishing%20Line%20Cast",
+			"presentation" : {
+				"type" : "Modifier/Pose",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0.5019608, 0.5019608, 0.5019608 ], [ 0.7529412, 0.7529412, 0.7529412 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "Tippet Length",
+				"label" : "Tippet Length",
+				"value" : 0,
+				"min" : -1,
+				"max" : 1,
+				"display_as_percent" : true,
+				"step_size" : 0.04
+			},
+			"group" : "/Pose Controls",
+			"formulas" : [
+				{
+					"output" : "CastBone480:/data/The%20Alchemist/Fly%20Fishing%20Gear/Fishing%20Line%20Cast/Fishing%20Line%20Cast.dsf#CastBone480?scale/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Fishing%20Line%20Cast:#Tippet%20Length?value" },
+						{ "op" : "push", "val" : 0.1151123 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "CastBone481:/data/The%20Alchemist/Fly%20Fishing%20Gear/Fishing%20Line%20Cast/Fishing%20Line%20Cast.dsf#CastBone481?scale/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Fishing%20Line%20Cast:#Tippet%20Length?value" },
+						{ "op" : "push", "val" : 0.1151123 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "CastBone482:/data/The%20Alchemist/Fly%20Fishing%20Gear/Fishing%20Line%20Cast/Fishing%20Line%20Cast.dsf#CastBone482?scale/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Fishing%20Line%20Cast:#Tippet%20Length?value" },
+						{ "op" : "push", "val" : 0.1151123 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "CastBone483:/data/The%20Alchemist/Fly%20Fishing%20Gear/Fishing%20Line%20Cast/Fishing%20Line%20Cast.dsf#CastBone483?scale/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Fishing%20Line%20Cast:#Tippet%20Length?value" },
+						{ "op" : "push", "val" : 0.1151123 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "CastBone484:/data/The%20Alchemist/Fly%20Fishing%20Gear/Fishing%20Line%20Cast/Fishing%20Line%20Cast.dsf#CastBone484?scale/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Fishing%20Line%20Cast:#Tippet%20Length?value" },
+						{ "op" : "push", "val" : 0.1151123 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "CastBone485:/data/The%20Alchemist/Fly%20Fishing%20Gear/Fishing%20Line%20Cast/Fishing%20Line%20Cast.dsf#CastBone485?scale/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Fishing%20Line%20Cast:#Tippet%20Length?value" },
+						{ "op" : "push", "val" : 0.1151123 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "CastBone486:/data/The%20Alchemist/Fly%20Fishing%20Gear/Fishing%20Line%20Cast/Fishing%20Line%20Cast.dsf#CastBone486?scale/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Fishing%20Line%20Cast:#Tippet%20Length?value" },
+						{ "op" : "push", "val" : 0.1151123 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "CastBone487:/data/The%20Alchemist/Fly%20Fishing%20Gear/Fishing%20Line%20Cast/Fishing%20Line%20Cast.dsf#CastBone487?scale/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Fishing%20Line%20Cast:#Tippet%20Length?value" },
+						{ "op" : "push", "val" : 0.1151123 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "CastBone488:/data/The%20Alchemist/Fly%20Fishing%20Gear/Fishing%20Line%20Cast/Fishing%20Line%20Cast.dsf#CastBone488?scale/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Fishing%20Line%20Cast:#Tippet%20Length?value" },
+						{ "op" : "push", "val" : 0.1151123 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "CastBone489:/data/The%20Alchemist/Fly%20Fishing%20Gear/Fishing%20Line%20Cast/Fishing%20Line%20Cast.dsf#CastBone489?scale/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Fishing%20Line%20Cast:#Tippet%20Length?value" },
+						{ "op" : "push", "val" : 0.1151123 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "CastBone490:/data/The%20Alchemist/Fly%20Fishing%20Gear/Fishing%20Line%20Cast/Fishing%20Line%20Cast.dsf#CastBone490?scale/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Fishing%20Line%20Cast:#Tippet%20Length?value" },
+						{ "op" : "push", "val" : 0.1151123 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "CastBone491:/data/The%20Alchemist/Fly%20Fishing%20Gear/Fishing%20Line%20Cast/Fishing%20Line%20Cast.dsf#CastBone491?scale/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Fishing%20Line%20Cast:#Tippet%20Length?value" },
+						{ "op" : "push", "val" : 0.1151123 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "CastBone492:/data/The%20Alchemist/Fly%20Fishing%20Gear/Fishing%20Line%20Cast/Fishing%20Line%20Cast.dsf#CastBone492?scale/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Fishing%20Line%20Cast:#Tippet%20Length?value" },
+						{ "op" : "push", "val" : 0.1151123 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "CastBone493:/data/The%20Alchemist/Fly%20Fishing%20Gear/Fishing%20Line%20Cast/Fishing%20Line%20Cast.dsf#CastBone493?scale/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Fishing%20Line%20Cast:#Tippet%20Length?value" },
+						{ "op" : "push", "val" : 0.1151123 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "CastBone494:/data/The%20Alchemist/Fly%20Fishing%20Gear/Fishing%20Line%20Cast/Fishing%20Line%20Cast.dsf#CastBone494?scale/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Fishing%20Line%20Cast:#Tippet%20Length?value" },
+						{ "op" : "push", "val" : 0.1151123 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "CastBone495:/data/The%20Alchemist/Fly%20Fishing%20Gear/Fishing%20Line%20Cast/Fishing%20Line%20Cast.dsf#CastBone495?scale/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Fishing%20Line%20Cast:#Tippet%20Length?value" },
+						{ "op" : "push", "val" : 0.1151123 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "CastBone496:/data/The%20Alchemist/Fly%20Fishing%20Gear/Fishing%20Line%20Cast/Fishing%20Line%20Cast.dsf#CastBone496?scale/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Fishing%20Line%20Cast:#Tippet%20Length?value" },
+						{ "op" : "push", "val" : 0.1151123 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "CastBone497:/data/The%20Alchemist/Fly%20Fishing%20Gear/Fishing%20Line%20Cast/Fishing%20Line%20Cast.dsf#CastBone497?scale/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Fishing%20Line%20Cast:#Tippet%20Length?value" },
+						{ "op" : "push", "val" : 0.1151123 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "CastBone498:/data/The%20Alchemist/Fly%20Fishing%20Gear/Fishing%20Line%20Cast/Fishing%20Line%20Cast.dsf#CastBone498?scale/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Fishing%20Line%20Cast:#Tippet%20Length?value" },
+						{ "op" : "push", "val" : 0.1151123 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "CastBone499:/data/The%20Alchemist/Fly%20Fishing%20Gear/Fishing%20Line%20Cast/Fishing%20Line%20Cast.dsf#CastBone499?scale/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Fishing%20Line%20Cast:#Tippet%20Length?value" },
+						{ "op" : "push", "val" : 0.1151123 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "CastBone500:/data/The%20Alchemist/Fly%20Fishing%20Gear/Fishing%20Line%20Cast/Fishing%20Line%20Cast.dsf#CastBone500?scale/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Fishing%20Line%20Cast:#Tippet%20Length?value" },
+						{ "op" : "push", "val" : 0.1151123 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "CastBone501:/data/The%20Alchemist/Fly%20Fishing%20Gear/Fishing%20Line%20Cast/Fishing%20Line%20Cast.dsf#CastBone501?scale/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Fishing%20Line%20Cast:#Tippet%20Length?value" },
+						{ "op" : "push", "val" : 0.1151123 },
+						{ "op" : "mult" }
+					]
+				}
+			]
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "Tippet Length-1",
+				"url" : "#Tippet%20Length"
+			}
+		]
+	}
+}

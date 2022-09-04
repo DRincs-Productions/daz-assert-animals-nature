@@ -1,0 +1,44 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/The%20Alchemist/Fly%20Fishing%20Gear/FFG%20Rod%20%26%20Reel%20Case/Morphs/The%20Alchemist/Base/alias_Zipper%20Base_Open%20Zipper.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "The Alchemist",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2021-05-08T19:40:50Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "Open Zipper",
+			"name" : "Open Zipper",
+			"parent" : "/data/The%20Alchemist/Fly%20Fishing%20Gear/FFG%20Rod%20%26%20Reel%20Case/Rod%20and%20Reel%20Case_13942.dsf#Zipper%20Base",
+			"presentation" : {
+				"type" : "",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0.5019608, 0.2509804, 0.2509804 ], [ 1, 0.5019608, 0.5019608 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "alias",
+				"name" : "Open Zipper",
+				"label" : "Open Zipper",
+				"target_channel" : "Rod%20and%20Reel%20Case_13942:/data/The%20Alchemist/Fly%20Fishing%20Gear/FFG%20Rod%20%26%20Reel%20Case/Morphs/The%20Alchemist/Base/Open%20Zipper.dsf#Open%20Zipper?value"
+			},
+			"group" : "/Pose Controls"
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "Open Zipper-1",
+				"url" : "#Open%20Zipper"
+			}
+		]
+	}
+}

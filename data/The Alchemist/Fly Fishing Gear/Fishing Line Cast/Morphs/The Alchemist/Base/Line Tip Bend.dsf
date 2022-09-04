@@ -1,0 +1,155 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/The%20Alchemist/Fly%20Fishing%20Gear/Fishing%20Line%20Cast/Morphs/The%20Alchemist/Base/Line%20Tip%20Bend.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "The Alchemist",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2021-05-04T03:33:38Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "Line Tip Bend",
+			"name" : "Line Tip Bend",
+			"parent" : "/data/The%20Alchemist/Fly%20Fishing%20Gear/Fishing%20Line%20Cast/Fishing%20Line%20Cast.dsf#Fishing%20Line%20Cast",
+			"presentation" : {
+				"type" : "Modifier/Pose",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0, 0.5019608, 0 ], [ 0.5019608, 1, 0.5019608 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "Line Tip Bend",
+				"label" : "Line Tip Bend",
+				"value" : 0,
+				"min" : 0,
+				"max" : 1,
+				"clamped" : true,
+				"display_as_percent" : true,
+				"step_size" : 0.04
+			},
+			"group" : "/Pose Controls",
+			"formulas" : [
+				{
+					"output" : "Fishing%20Line%20Cast:/data/The%20Alchemist/Fly%20Fishing%20Gear/Fishing%20Line%20Cast/Fishing%20Line%20Cast.dsf#Fishing%20Line%20Cast?translation/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Fishing%20Line%20Cast:#Line%20Tip%20Bend?value" },
+						{ "op" : "push", "val" : 0.05 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "EndBone02:/data/The%20Alchemist/Fly%20Fishing%20Gear/Fishing%20Line%20Cast/Fishing%20Line%20Cast.dsf#EndBone02?rotation/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Fishing%20Line%20Cast:#Line%20Tip%20Bend?value" },
+						{ "op" : "push", "val" : 30 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "EndBone02:/data/The%20Alchemist/Fly%20Fishing%20Gear/Fishing%20Line%20Cast/Fishing%20Line%20Cast.dsf#EndBone02?scale/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Fishing%20Line%20Cast:#Line%20Tip%20Bend?value" },
+						{ "op" : "push", "val" : 0.37 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "EndBone03:/data/The%20Alchemist/Fly%20Fishing%20Gear/Fishing%20Line%20Cast/Fishing%20Line%20Cast.dsf#EndBone03?rotation/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Fishing%20Line%20Cast:#Line%20Tip%20Bend?value" },
+						{ "op" : "push", "val" : 30 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "EndBone03:/data/The%20Alchemist/Fly%20Fishing%20Gear/Fishing%20Line%20Cast/Fishing%20Line%20Cast.dsf#EndBone03?scale/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Fishing%20Line%20Cast:#Line%20Tip%20Bend?value" },
+						{ "op" : "push", "val" : 0.37 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "EndBone04:/data/The%20Alchemist/Fly%20Fishing%20Gear/Fishing%20Line%20Cast/Fishing%20Line%20Cast.dsf#EndBone04?rotation/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Fishing%20Line%20Cast:#Line%20Tip%20Bend?value" },
+						{ "op" : "push", "val" : 30 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "EndBone04:/data/The%20Alchemist/Fly%20Fishing%20Gear/Fishing%20Line%20Cast/Fishing%20Line%20Cast.dsf#EndBone04?scale/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Fishing%20Line%20Cast:#Line%20Tip%20Bend?value" },
+						{ "op" : "push", "val" : 0.37 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "EndBone05:/data/The%20Alchemist/Fly%20Fishing%20Gear/Fishing%20Line%20Cast/Fishing%20Line%20Cast.dsf#EndBone05?rotation/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Fishing%20Line%20Cast:#Line%20Tip%20Bend?value" },
+						{ "op" : "push", "val" : 30 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "EndBone05:/data/The%20Alchemist/Fly%20Fishing%20Gear/Fishing%20Line%20Cast/Fishing%20Line%20Cast.dsf#EndBone05?scale/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Fishing%20Line%20Cast:#Line%20Tip%20Bend?value" },
+						{ "op" : "push", "val" : 0.37 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "EndBone06:/data/The%20Alchemist/Fly%20Fishing%20Gear/Fishing%20Line%20Cast/Fishing%20Line%20Cast.dsf#EndBone06?rotation/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Fishing%20Line%20Cast:#Line%20Tip%20Bend?value" },
+						{ "op" : "push", "val" : 30 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "EndBone06:/data/The%20Alchemist/Fly%20Fishing%20Gear/Fishing%20Line%20Cast/Fishing%20Line%20Cast.dsf#EndBone06?scale/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Fishing%20Line%20Cast:#Line%20Tip%20Bend?value" },
+						{ "op" : "push", "val" : 0.37 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "EndBone07:/data/The%20Alchemist/Fly%20Fishing%20Gear/Fishing%20Line%20Cast/Fishing%20Line%20Cast.dsf#EndBone07?rotation/x",
+					"operations" : [
+						{ "op" : "push", "url" : "Fishing%20Line%20Cast:#Line%20Tip%20Bend?value" },
+						{ "op" : "push", "val" : 30 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "EndBone07:/data/The%20Alchemist/Fly%20Fishing%20Gear/Fishing%20Line%20Cast/Fishing%20Line%20Cast.dsf#EndBone07?scale/y",
+					"operations" : [
+						{ "op" : "push", "url" : "Fishing%20Line%20Cast:#Line%20Tip%20Bend?value" },
+						{ "op" : "push", "val" : 0.37 },
+						{ "op" : "mult" }
+					]
+				}
+			]
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "Line Tip Bend-1",
+				"url" : "#Line%20Tip%20Bend"
+			}
+		]
+	}
+}

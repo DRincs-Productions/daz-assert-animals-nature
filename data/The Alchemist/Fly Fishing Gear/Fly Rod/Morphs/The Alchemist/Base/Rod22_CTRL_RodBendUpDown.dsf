@@ -1,0 +1,49 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/The%20Alchemist/Fly%20Fishing%20Gear/Fly%20Rod/Morphs/The%20Alchemist/Base/Rod22_CTRL_RodBendUpDown.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "The Alchemist",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2021-05-04T03:34:08Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "CTRL_RodBendUpDown",
+			"name" : "CTRL_RodBendUpDown",
+			"parent" : "/data/The%20Alchemist/Fly%20Fishing%20Gear/Fly%20Rod/Fly%20Rod_84250.dsf#Rod22",
+			"presentation" : {
+				"type" : "",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0.5019608, 0.2509804, 0 ], [ 1, 0.5019608, 0 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "CTRL_RodBendUpDown",
+				"label" : "Rod Bend Up-Down",
+				"value" : 0,
+				"min" : -1,
+				"max" : 1,
+				"clamped" : true,
+				"display_as_percent" : true,
+				"step_size" : 0.04
+			},
+			"group" : "/Pose Controls"
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "CTRL_RodBendUpDown-1",
+				"url" : "#CTRL_RodBendUpDown"
+			}
+		]
+	}
+}

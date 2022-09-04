@@ -1,0 +1,44 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/The%20Alchemist/Fly%20Fishing%20Gear/Fly%20Rod/Morphs/The%20Alchemist/Base/alias_Fly%20Rod_84250_Leader%20Length.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "The Alchemist",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "0.0",
+		"modified" : "2021-05-04T03:34:08Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "Leader Length",
+			"name" : "Leader Length",
+			"parent" : "/data/The%20Alchemist/Fly%20Fishing%20Gear/Fly%20Rod/Fly%20Rod_84250.dsf#Fly%20Rod_84250",
+			"presentation" : {
+				"type" : "Modifier/Pose",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 1, 0.7607843, 0.4196078 ], [ 1, 1, 0.5019608 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "alias",
+				"name" : "Leader Length",
+				"label" : "Leader Length",
+				"target_channel" : "Fishing%20Line%20Cast:/data/The%20Alchemist/Fly%20Fishing%20Gear/Fishing%20Line%20Cast/Morphs/The%20Alchemist/Base/Leader%20Length.dsf#Leader%20Length?value"
+			},
+			"group" : "/Pose Controls"
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "Leader Length-1",
+				"url" : "#Leader%20Length"
+			}
+		]
+	}
+}

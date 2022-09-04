@@ -1,0 +1,44 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/The%20Alchemist/Fly%20Fishing%20Gear/FFG%20Rod%20%26%20Reel%20Case/Morphs/The%20Alchemist/Base/alias_Rod%20and%20Reel%20Case_13942_YRotate2.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "The Alchemist",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2021-05-08T19:40:50Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "YRotate2",
+			"name" : "YRotate2",
+			"parent" : "/data/The%20Alchemist/Fly%20Fishing%20Gear/FFG%20Rod%20%26%20Reel%20Case/Rod%20and%20Reel%20Case_13942.dsf#Rod%20and%20Reel%20Case_13942",
+			"presentation" : {
+				"type" : "Modifier/Pose",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0.3529412, 0.3529412, 0.3529412 ], [ 1, 1, 1 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "alias",
+				"name" : "YRotate2",
+				"label" : "Open Pouch",
+				"target_channel" : "Reel%20Pouch:/data/The%20Alchemist/Fly%20Fishing%20Gear/FFG%20Rod%20%26%20Reel%20Case/Rod%20and%20Reel%20Case_13942.dsf#Reel%20Pouch?rotation/y"
+			},
+			"group" : "/Pose Controls"
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "YRotate2-1",
+				"url" : "#YRotate2"
+			}
+		]
+	}
+}

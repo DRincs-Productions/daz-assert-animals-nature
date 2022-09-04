@@ -1,0 +1,533 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/Stonemason/FernLake/fpsBackdrop/fpsBackdrop.dsf",
+		"type" : "prop",
+		"contributor" : {
+			"author" : "Stonemason",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2016-03-05T11:29:04Z"
+	},
+	"geometry_library" : [
+		{
+			"id" : "fpsBackdrop-1",
+			"name" : "fpsBackdrop",
+			"type" : "subdivision_surface",
+			"edge_interpolation_mode" : "edges_only",
+			"vertices" : {
+				"count" : 94,
+				"values" : [
+					[ 1641.488, -12.88605, -352.2274 ],
+					[ 1641.488, 994.1775, -352.2274 ],
+					[ 1627.154, 994.1775, -566.3571 ],
+					[ 1627.154, -12.88605, -566.3571 ],
+					[ 1584.407, 994.1775, -776.6656 ],
+					[ 1584.407, -12.88605, -776.6656 ],
+					[ 1514.01, 994.1775, -979.4002 ],
+					[ 1514.01, -12.88605, -979.4002 ],
+					[ 1417.219, 994.1775, -1170.943 ],
+					[ 1417.219, -12.88605, -1170.943 ],
+					[ 1295.762, 994.1775, -1347.875 ],
+					[ 1295.762, -12.88605, -1347.875 ],
+					[ 1151.805, 994.1775, -1507.04 ],
+					[ 1151.805, -12.88605, -1507.04 ],
+					[ 987.9187, 994.1775, -1645.598 ],
+					[ 987.9187, -12.88605, -1645.598 ],
+					[ 807.0265, 994.1775, -1761.075 ],
+					[ 807.0265, -12.88605, -1761.075 ],
+					[ 612.3566, 994.1775, -1851.412 ],
+					[ 612.3566, -12.88605, -1851.412 ],
+					[ 407.3831, 994.1775, -1914.995 ],
+					[ 407.3831, -12.88605, -1914.995 ],
+					[ 195.7638, 994.1775, -1950.691 ],
+					[ 195.7638, -12.88605, -1950.691 ],
+					[ -18.7253, 994.1775, -1957.862 ],
+					[ -18.7253, -12.88605, -1957.862 ],
+					[ -232.2564, 994.1775, -1936.381 ],
+					[ -232.2564, -12.88605, -1936.381 ],
+					[ -441.0191, 994.1775, -1886.63 ],
+					[ -441.0191, -12.88605, -1886.63 ],
+					[ -641.288, 994.1775, -1809.498 ],
+					[ -641.288, -12.88605, -1809.498 ],
+					[ -829.4895, 994.1775, -1706.361 ],
+					[ -829.4895, -12.88605, -1706.361 ],
+					[ -1002.265, 994.1775, -1579.059 ],
+					[ -1002.265, -12.88605, -1579.059 ],
+					[ -1156.531, 994.1775, -1429.864 ],
+					[ -1156.531, -12.88605, -1429.864 ],
+					[ -1289.535, 994.1775, -1261.439 ],
+					[ -1289.535, -12.88605, -1261.439 ],
+					[ -1398.903, 994.1775, -1076.789 ],
+					[ -1398.903, -12.88605, -1076.789 ],
+					[ -1482.684, 994.1775, -879.2094 ],
+					[ -1482.684, -12.88605, -879.2094 ],
+					[ -1539.383, 994.1775, -672.2255 ],
+					[ -1539.383, -12.88605, -672.2255 ],
+					[ -1567.987, 994.1775, -459.5313 ],
+					[ -1567.987, -12.88605, -459.5313 ],
+					[ -1567.987, 994.1775, -244.9221 ],
+					[ -1567.987, -12.88605, -244.9221 ],
+					[ -1539.382, 994.1775, -32.22792 ],
+					[ -1539.382, -12.88605, -32.22792 ],
+					[ -1482.684, 994.1775, 174.7559 ],
+					[ -1482.684, -12.88605, 174.7559 ],
+					[ -1398.903, 994.1775, 372.3357 ],
+					[ -1398.903, -12.88605, 372.3357 ],
+					[ -1289.534, 994.1775, 556.9856 ],
+					[ -1289.534, -12.88605, 556.9856 ],
+					[ -1156.53, 994.1775, 725.4105 ],
+					[ -1156.53, -12.88605, 725.4105 ],
+					[ -1002.264, 994.1775, 874.605 ],
+					[ -1002.264, -12.88605, 874.605 ],
+					[ -829.4885, 994.1775, 1001.906 ],
+					[ -829.4885, -12.88605, 1001.906 ],
+					[ -641.2873, 994.1775, 1105.043 ],
+					[ -641.2873, -12.88605, 1105.043 ],
+					[ -441.0186, 994.1775, 1182.175 ],
+					[ -441.0186, -12.88605, 1182.175 ],
+					[ -232.2561, 994.1775, 1231.926 ],
+					[ -232.2561, -12.88605, 1231.926 ],
+					[ -18.7252, 994.1775, 1253.407 ],
+					[ -18.7252, -12.88605, 1253.407 ],
+					[ 195.7637, 994.1775, 1246.236 ],
+					[ 195.7637, -12.88605, 1246.236 ],
+					[ 407.3829, 994.1775, 1210.54 ],
+					[ 407.3829, -12.88605, 1210.54 ],
+					[ 612.3562, 994.1775, 1146.957 ],
+					[ 612.3562, -12.88605, 1146.957 ],
+					[ 807.0259, 994.1775, 1056.621 ],
+					[ 807.0259, -12.88605, 1056.621 ],
+					[ 987.918, 994.1775, 941.1435 ],
+					[ 987.918, -12.88605, 941.1436 ],
+					[ 1151.804, 994.1775, 802.5864 ],
+					[ 1151.804, -12.88605, 802.5864 ],
+					[ 1295.761, 994.1775, 643.4216 ],
+					[ 1295.761, -12.88605, 643.4216 ],
+					[ 1417.218, 994.1775, 466.4893 ],
+					[ 1417.218, -12.88605, 466.4893 ],
+					[ 1514.009, 994.1775, 274.9471 ],
+					[ 1514.009, -12.88605, 274.9471 ],
+					[ 1584.406, 994.1775, 72.21306 ],
+					[ 1584.406, -12.88605, 72.21306 ],
+					[ 1627.154, 994.1775, -138.0952 ],
+					[ 1627.154, -12.88605, -138.0952 ]
+				]
+			},
+			"polygon_groups" : {
+				"count" : 1,
+				"values" : [
+					"fpsBackdrop"
+				]
+			},
+			"polygon_material_groups" : {
+				"count" : 1,
+				"values" : [
+					"Backdrop"
+				]
+			},
+			"polylist" : {
+				"count" : 47,
+				"values" : [
+					[ 0, 0, 0, 1, 2, 3 ],
+					[ 0, 0, 3, 2, 4, 5 ],
+					[ 0, 0, 5, 4, 6, 7 ],
+					[ 0, 0, 7, 6, 8, 9 ],
+					[ 0, 0, 9, 8, 10, 11 ],
+					[ 0, 0, 11, 10, 12, 13 ],
+					[ 0, 0, 13, 12, 14, 15 ],
+					[ 0, 0, 15, 14, 16, 17 ],
+					[ 0, 0, 17, 16, 18, 19 ],
+					[ 0, 0, 19, 18, 20, 21 ],
+					[ 0, 0, 21, 20, 22, 23 ],
+					[ 0, 0, 23, 22, 24, 25 ],
+					[ 0, 0, 25, 24, 26, 27 ],
+					[ 0, 0, 27, 26, 28, 29 ],
+					[ 0, 0, 29, 28, 30, 31 ],
+					[ 0, 0, 31, 30, 32, 33 ],
+					[ 0, 0, 33, 32, 34, 35 ],
+					[ 0, 0, 35, 34, 36, 37 ],
+					[ 0, 0, 37, 36, 38, 39 ],
+					[ 0, 0, 39, 38, 40, 41 ],
+					[ 0, 0, 41, 40, 42, 43 ],
+					[ 0, 0, 43, 42, 44, 45 ],
+					[ 0, 0, 45, 44, 46, 47 ],
+					[ 0, 0, 47, 46, 48, 49 ],
+					[ 0, 0, 49, 48, 50, 51 ],
+					[ 0, 0, 51, 50, 52, 53 ],
+					[ 0, 0, 53, 52, 54, 55 ],
+					[ 0, 0, 55, 54, 56, 57 ],
+					[ 0, 0, 57, 56, 58, 59 ],
+					[ 0, 0, 59, 58, 60, 61 ],
+					[ 0, 0, 61, 60, 62, 63 ],
+					[ 0, 0, 63, 62, 64, 65 ],
+					[ 0, 0, 65, 64, 66, 67 ],
+					[ 0, 0, 67, 66, 68, 69 ],
+					[ 0, 0, 69, 68, 70, 71 ],
+					[ 0, 0, 71, 70, 72, 73 ],
+					[ 0, 0, 73, 72, 74, 75 ],
+					[ 0, 0, 75, 74, 76, 77 ],
+					[ 0, 0, 77, 76, 78, 79 ],
+					[ 0, 0, 79, 78, 80, 81 ],
+					[ 0, 0, 81, 80, 82, 83 ],
+					[ 0, 0, 83, 82, 84, 85 ],
+					[ 0, 0, 85, 84, 86, 87 ],
+					[ 0, 0, 87, 86, 88, 89 ],
+					[ 0, 0, 89, 88, 90, 91 ],
+					[ 0, 0, 91, 90, 92, 93 ],
+					[ 0, 0, 93, 92, 1, 0 ]
+				]
+			},
+			"default_uv_set" : "/data/Stonemason/FernLake/fpsBackdrop/UV%20Sets/Stonemason/Base/default.dsf#default",
+			"extra" : [
+				{
+					"type" : "studio_geometry_channels",
+					"channels" : [
+						{
+							"channel" : {
+								"id" : "SubDIALevel",
+								"type" : "int",
+								"label" : "View SubD Level",
+								"value" : 1,
+								"min" : 0,
+								"max" : 6,
+								"clamped" : true,
+								"step_size" : 1
+							},
+							"group" : "/General/Mesh Resolution"
+						},
+						{
+							"channel" : {
+								"id" : "SubDRenderLevel",
+								"type" : "int",
+								"label" : "Render SubD Level (Minimum)",
+								"value" : 0,
+								"min" : 0,
+								"max" : 9,
+								"clamped" : true,
+								"step_size" : 1
+							},
+							"group" : "/General/Mesh Resolution"
+						},
+						{
+							"channel" : {
+								"id" : "SubDAlgorithmControl",
+								"type" : "enum",
+								"label" : "SubDivision Algorithm",
+								"value" : 0,
+								"enum_values" : [ "Catmark", "Bilinear", "Loop", "Catmull-Clark (Legacy)" ]
+							},
+							"group" : "/General/Mesh Resolution"
+						},
+						{
+							"channel" : {
+								"id" : "SubDEdgeInterpolateLevel",
+								"type" : "enum",
+								"label" : "Edge Interpolation",
+								"value" : 2,
+								"enum_values" : [ "Soft Corners And Edges", "Sharp Edges and Corners", "Sharp Edges" ]
+							},
+							"group" : "/General/Mesh Resolution"
+						}
+					]
+				}
+			]
+		}
+	],
+	"node_library" : [
+		{
+			"id" : "fpsBackdrop",
+			"name" : "fpsBackdrop",
+			"type" : "node",
+			"label" : "fpsBackdrop",
+			"rotation_order" : "YXZ",
+			"inherits_scale" : true,
+			"center_point" : [
+				{
+					"id" : "x",
+					"type" : "float",
+					"name" : "xOrigin",
+					"label" : "X Origin",
+					"visible" : false,
+					"value" : 36.75061,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.01
+				},
+				{
+					"id" : "y",
+					"type" : "float",
+					"name" : "yOrigin",
+					"label" : "Y Origin",
+					"visible" : false,
+					"value" : -12.88605,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.01
+				},
+				{
+					"id" : "z",
+					"type" : "float",
+					"name" : "zOrigin",
+					"label" : "Z Origin",
+					"visible" : false,
+					"value" : -352.2274,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.01
+				}
+			],
+			"end_point" : [
+				{
+					"id" : "x",
+					"type" : "float",
+					"name" : "xEnd",
+					"label" : "X End",
+					"visible" : false,
+					"value" : 36.75061,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.01
+				},
+				{
+					"id" : "y",
+					"type" : "float",
+					"name" : "yEnd",
+					"label" : "Y End",
+					"visible" : false,
+					"value" : 994.1775,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.01
+				},
+				{
+					"id" : "z",
+					"type" : "float",
+					"name" : "zEnd",
+					"label" : "Z End",
+					"visible" : false,
+					"value" : -352.2274,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.01
+				}
+			],
+			"orientation" : [
+				{
+					"id" : "x",
+					"type" : "float",
+					"name" : "xOrientation",
+					"label" : "X Orientation",
+					"visible" : false,
+					"value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.01
+				},
+				{
+					"id" : "y",
+					"type" : "float",
+					"name" : "yOrientation",
+					"label" : "Y Orientation",
+					"visible" : false,
+					"value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.01
+				},
+				{
+					"id" : "z",
+					"type" : "float",
+					"name" : "zOrientation",
+					"label" : "Z Orientation",
+					"visible" : false,
+					"value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.01
+				}
+			],
+			"rotation" : [
+				{
+					"id" : "x",
+					"type" : "float",
+					"name" : "XRotate",
+					"label" : "X Rotate",
+					"value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.5
+				},
+				{
+					"id" : "y",
+					"type" : "float",
+					"name" : "YRotate",
+					"label" : "Y Rotate",
+					"value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.5
+				},
+				{
+					"id" : "z",
+					"type" : "float",
+					"name" : "ZRotate",
+					"label" : "Z Rotate",
+					"value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.5
+				}
+			],
+			"translation" : [
+				{
+					"id" : "x",
+					"type" : "float",
+					"name" : "XTranslate",
+					"label" : "X Translate",
+					"value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 1
+				},
+				{
+					"id" : "y",
+					"type" : "float",
+					"name" : "YTranslate",
+					"label" : "Y Translate",
+					"value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 1
+				},
+				{
+					"id" : "z",
+					"type" : "float",
+					"name" : "ZTranslate",
+					"label" : "Z Translate",
+					"value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 1
+				}
+			],
+			"scale" : [
+				{
+					"id" : "x",
+					"type" : "float",
+					"name" : "XScale",
+					"label" : "X Scale",
+					"value" : 1,
+					"min" : -10000,
+					"max" : 10000,
+					"display_as_percent" : true,
+					"step_size" : 0.005
+				},
+				{
+					"id" : "y",
+					"type" : "float",
+					"name" : "YScale",
+					"label" : "Y Scale",
+					"value" : 1,
+					"min" : -10000,
+					"max" : 10000,
+					"display_as_percent" : true,
+					"step_size" : 0.005
+				},
+				{
+					"id" : "z",
+					"type" : "float",
+					"name" : "ZScale",
+					"label" : "Z Scale",
+					"value" : 1,
+					"min" : -10000,
+					"max" : 10000,
+					"display_as_percent" : true,
+					"step_size" : 0.005
+				}
+			],
+			"general_scale" : {
+				"id" : "general_scale",
+				"type" : "float",
+				"name" : "Scale",
+				"label" : "Scale",
+				"value" : 1,
+				"min" : -10000,
+				"max" : 10000,
+				"display_as_percent" : true,
+				"step_size" : 0.005
+			},
+			"extra" : [
+				{
+					"type" : "studio_node_channels",
+					"channels" : [
+						{
+							"channel" : {
+								"id" : "Point At",
+								"type" : "numeric_node",
+								"label" : "Point At",
+								"value" : 0,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"step_size" : 0.01,
+								"needs_node" : true,
+								"node" : null
+							},
+							"group" : "/General/Misc"
+						},
+						{
+							"channel" : {
+								"id" : "Renderable",
+								"type" : "bool",
+								"label" : "Visible in Render",
+								"value" : true
+							},
+							"group" : "/Display/Rendering"
+						},
+						{
+							"channel" : {
+								"id" : "Cast Shadows",
+								"type" : "bool",
+								"label" : "Cast Shadows",
+								"value" : true
+							},
+							"group" : "/Display/Rendering"
+						},
+						{
+							"channel" : {
+								"id" : "Render Priority",
+								"type" : "enum",
+								"label" : "Render Priority",
+								"visible" : false,
+								"value" : 3,
+								"enum_values" : [ "Lowest", "Low", "Below Normal", "Normal", "Above Normal", "High", "Highest" ]
+							},
+							"group" : "/Display/Rendering"
+						},
+						{
+							"channel" : {
+								"id" : "Visible",
+								"type" : "bool",
+								"label" : "Visible",
+								"value" : true
+							},
+							"group" : "/Display/Scene View"
+						},
+						{
+							"channel" : {
+								"id" : "Selectable",
+								"type" : "bool",
+								"label" : "Selectable",
+								"value" : true
+							},
+							"group" : "/Display/Scene View"
+						}
+					]
+				}
+			]
+		}
+	]
+}

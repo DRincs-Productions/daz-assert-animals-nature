@@ -1,0 +1,2051 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/People/Genesis%208%20Male/Characters/Teddy/Fur%20Sets/Munted%20Fur.duf",
+		"type" : "wearable",
+		"contributor" : {
+			"author" : "",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2020-06-26T05:58:35Z"
+	},
+	"image_library" : [
+		{
+			"id" : "paintedfurteddy_glosscolor.jpg-63",
+			"name" : "paintedfurteddy_glosscolor.jpg",
+			"map_gamma" : 0,
+			"map" : [
+				{
+					"url" : "/Runtime/Textures/Joequick/Teddy/paintedfurteddy_glosscolor.jpg",
+					"label" : "paintedfurteddy_glosscolor.jpg"
+				}
+			]
+		}
+	],
+	"material_library" : [
+		{
+			"id" : "Strand-Based Hair Material",
+			"extra" : [
+				{
+					"type" : "studio/material/strand_hair_rsl"
+				},
+				{
+					"type" : "studio_material_channels",
+					"channels" : [
+						{
+							"channel" : {
+								"id" : "Tags",
+								"type" : "string",
+								"label" : "Tags",
+								"value" : "",
+								"current_value" : ""
+							},
+							"group" : "/General"
+						},
+						{
+							"channel" : {
+								"id" : "Smooth On",
+								"type" : "bool",
+								"label" : "Smooth",
+								"visible" : false,
+								"value" : true,
+								"current_value" : true
+							},
+							"group" : "/Smoothing"
+						},
+						{
+							"channel" : {
+								"id" : "Smooth Angle",
+								"type" : "float",
+								"label" : "Angle",
+								"visible" : false,
+								"value" : 89.9,
+								"current_value" : 89.9,
+								"min" : 0,
+								"max" : 180,
+								"clamped" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/Smoothing"
+						},
+						{
+							"channel" : {
+								"id" : "Line Preview Color",
+								"type" : "color",
+								"label" : "Line Preview Color",
+								"value" : [ 0, 0, 0 ],
+								"current_value" : [ 0.8, 0.5764706, 0.1372549 ],
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true
+							},
+							"group" : "/Lines"
+						},
+						{
+							"channel" : {
+								"id" : "Line Start Width",
+								"type" : "float",
+								"label" : "Line Start Width (mm)",
+								"value" : 0.1,
+								"current_value" : 0.5,
+								"min" : -10000,
+								"max" : 10000,
+								"step_size" : 0.01
+							},
+							"group" : "/Lines/Generation"
+						},
+						{
+							"channel" : {
+								"id" : "Line End Width",
+								"type" : "float",
+								"label" : "Line End Width (mm)",
+								"value" : 0.1,
+								"current_value" : 0.25,
+								"min" : -10000,
+								"max" : 10000,
+								"step_size" : 0.01
+							},
+							"group" : "/Lines/Generation"
+						},
+						{
+							"channel" : {
+								"id" : "Line UV Width",
+								"type" : "float",
+								"label" : "Line UV Width",
+								"value" : 0,
+								"current_value" : 0.5,
+								"min" : 0,
+								"max" : 1,
+								"step_size" : 0.01
+							},
+							"group" : "/Lines/Generation"
+						},
+						{
+							"channel" : {
+								"id" : "Render Priority",
+								"type" : "enum",
+								"label" : "Render Priority",
+								"visible" : false,
+								"value" : 3,
+								"current_value" : 3,
+								"enum_values" : [ "Lowest", "Low", "Below Normal", "Normal", "Above Normal", "High", "Highest" ]
+							},
+							"group" : "/Render Priority"
+						},
+						{
+							"channel" : {
+								"id" : "Propagate Priority",
+								"type" : "bool",
+								"label" : "Propagate Priority",
+								"visible" : false,
+								"value" : false,
+								"current_value" : false
+							},
+							"group" : "/Render Priority"
+						},
+						{
+							"channel" : {
+								"id" : "Shading Rate",
+								"type" : "int",
+								"label" : "Shading Rate",
+								"value" : 32,
+								"current_value" : 32,
+								"min" : -2147483648,
+								"max" : 2147483647,
+								"step_size" : 1
+							},
+							"group" : "/General"
+						},
+						{
+							"channel" : {
+								"id" : "Opacity",
+								"type" : "float",
+								"label" : "Opacity",
+								"value" : 1,
+								"current_value" : 1,
+								"min" : 0,
+								"max" : 1,
+								"step_size" : 0.01
+							},
+							"group" : "/General"
+						},
+						{
+							"channel" : {
+								"id" : "S Opacity",
+								"type" : "float",
+								"label" : "S Opacity",
+								"value" : 1,
+								"current_value" : 1,
+								"min" : 0,
+								"max" : 1,
+								"step_size" : 0.01
+							},
+							"group" : "/General"
+						},
+						{
+							"channel" : {
+								"id" : "A Intensity",
+								"type" : "float",
+								"label" : "A Intensity",
+								"value" : 0,
+								"current_value" : 0,
+								"min" : 0,
+								"max" : 1,
+								"step_size" : 0.01
+							},
+							"group" : "/Ambient & Diffuse"
+						},
+						{
+							"channel" : {
+								"id" : "D Intensity",
+								"type" : "float",
+								"label" : "D Intensity",
+								"value" : 0.3,
+								"current_value" : 0.3,
+								"min" : 0,
+								"max" : 1,
+								"step_size" : 0.01
+							},
+							"group" : "/Ambient & Diffuse"
+						},
+						{
+							"channel" : {
+								"id" : "R Intensity",
+								"type" : "float",
+								"label" : "R Intensity",
+								"value" : 0.6,
+								"current_value" : 0.6,
+								"min" : 0,
+								"max" : 1,
+								"step_size" : 0.01
+							},
+							"group" : "/Primary Specular (R)"
+						},
+						{
+							"channel" : {
+								"id" : "R Colour",
+								"type" : "color",
+								"label" : "R Colour",
+								"value" : [ 1, 1, 1 ],
+								"current_value" : [ 1, 1, 1 ],
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true
+							},
+							"group" : "/Primary Specular (R)"
+						},
+						{
+							"channel" : {
+								"id" : "R Colour Blend",
+								"type" : "float",
+								"label" : "R Colour Blend",
+								"value" : 0.8,
+								"current_value" : 0.8,
+								"min" : 0,
+								"max" : 1,
+								"step_size" : 0.01
+							},
+							"group" : "/Primary Specular (R)"
+						},
+						{
+							"channel" : {
+								"id" : "R Longitudinal Shift",
+								"type" : "float",
+								"label" : "R Longitudinal Shift",
+								"value" : 10,
+								"current_value" : 10,
+								"min" : -10000,
+								"max" : 10000,
+								"step_size" : 0.01
+							},
+							"group" : "/Primary Specular (R)"
+						},
+						{
+							"channel" : {
+								"id" : "R Longitudinal Width",
+								"type" : "float",
+								"label" : "R Longitudinal Width",
+								"value" : 10,
+								"current_value" : 10,
+								"min" : -10000,
+								"max" : 10000,
+								"step_size" : 0.01
+							},
+							"group" : "/Primary Specular (R)"
+						},
+						{
+							"channel" : {
+								"id" : "TRT Intensity",
+								"type" : "float",
+								"label" : "TRT Intensity",
+								"value" : 0.6,
+								"current_value" : 0.6,
+								"min" : 0,
+								"max" : 1,
+								"step_size" : 0.01
+							},
+							"group" : "/Secondary Specular (TRT)"
+						},
+						{
+							"channel" : {
+								"id" : "TRT Colour",
+								"type" : "color",
+								"label" : "TRT Colour",
+								"value" : [ 1, 1, 1 ],
+								"current_value" : [ 1, 1, 1 ],
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true
+							},
+							"group" : "/Secondary Specular (TRT)"
+						},
+						{
+							"channel" : {
+								"id" : "TRT Colour Blend",
+								"type" : "float",
+								"label" : "TRT Colour Blend",
+								"value" : 0.7,
+								"current_value" : 0.7,
+								"min" : 0,
+								"max" : 1,
+								"step_size" : 0.01
+							},
+							"group" : "/Secondary Specular (TRT)"
+						},
+						{
+							"channel" : {
+								"id" : "TRT Longitudinal Shift",
+								"type" : "float",
+								"label" : "TRT Longitudinal Shift",
+								"value" : 5,
+								"current_value" : 5,
+								"min" : -10000,
+								"max" : 10000,
+								"step_size" : 0.01
+							},
+							"group" : "/Secondary Specular (TRT)"
+						},
+						{
+							"channel" : {
+								"id" : "TRT Longitudinal Width",
+								"type" : "float",
+								"label" : "TRT Longitudinal Width",
+								"value" : 30,
+								"current_value" : 30,
+								"min" : -10000,
+								"max" : 10000,
+								"step_size" : 0.01
+							},
+							"group" : "/Secondary Specular (TRT)"
+						},
+						{
+							"channel" : {
+								"id" : "G Intensity",
+								"type" : "float",
+								"label" : "G Intensity",
+								"value" : 0.5,
+								"current_value" : 0.5,
+								"min" : -10000,
+								"max" : 10000,
+								"step_size" : 0.01
+							},
+							"group" : "/Secondary Specular (TRT)"
+						},
+						{
+							"channel" : {
+								"id" : "G Azimuthal Shift",
+								"type" : "float",
+								"label" : "G Azimuthal Shift",
+								"value" : 0,
+								"current_value" : 0,
+								"min" : -10000,
+								"max" : 10000,
+								"step_size" : 0.01
+							},
+							"group" : "/Secondary Specular (TRT)"
+						},
+						{
+							"channel" : {
+								"id" : "G Azimuthal Width",
+								"type" : "float",
+								"label" : "G Azimuthal Width",
+								"value" : 3,
+								"current_value" : 3,
+								"min" : -10000,
+								"max" : 10000,
+								"step_size" : 0.01
+							},
+							"group" : "/Secondary Specular (TRT)"
+						},
+						{
+							"channel" : {
+								"id" : "TT Intensity",
+								"type" : "float",
+								"label" : "TT Intensity",
+								"value" : 0,
+								"current_value" : 0,
+								"min" : 0,
+								"max" : 1,
+								"step_size" : 0.01
+							},
+							"group" : "/Transmission (TT)"
+						},
+						{
+							"channel" : {
+								"id" : "TT Colour",
+								"type" : "color",
+								"label" : "TT Colour",
+								"value" : [ 1, 1, 1 ],
+								"current_value" : [ 1, 1, 1 ],
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true
+							},
+							"group" : "/Transmission (TT)"
+						},
+						{
+							"channel" : {
+								"id" : "TT Colour Blend",
+								"type" : "float",
+								"label" : "TT Colour Blend",
+								"value" : 0.5,
+								"current_value" : 0.5,
+								"min" : 0,
+								"max" : 1,
+								"step_size" : 0.01
+							},
+							"group" : "/Transmission (TT)"
+						},
+						{
+							"channel" : {
+								"id" : "TT Longitudinal Shift",
+								"type" : "float",
+								"label" : "TT Longitudinal Shift",
+								"value" : 0,
+								"current_value" : 0,
+								"min" : -10000,
+								"max" : 10000,
+								"step_size" : 0.01
+							},
+							"group" : "/Transmission (TT)"
+						},
+						{
+							"channel" : {
+								"id" : "TT Longitudinal Width",
+								"type" : "float",
+								"label" : "TT Longitudinal Width",
+								"value" : 4,
+								"current_value" : 4,
+								"min" : -10000,
+								"max" : 10000,
+								"step_size" : 0.01
+							},
+							"group" : "/Transmission (TT)"
+						},
+						{
+							"channel" : {
+								"id" : "O Shader Intensity",
+								"type" : "float",
+								"label" : "O Shader Intensity",
+								"value" : 0,
+								"current_value" : 0,
+								"min" : 0,
+								"max" : 1,
+								"step_size" : 0.01
+							},
+							"group" : "/Occlusion"
+						},
+						{
+							"channel" : {
+								"id" : "O Shading Rate",
+								"type" : "int",
+								"label" : "O Shading Rate",
+								"value" : 128,
+								"current_value" : 128,
+								"min" : -2147483648,
+								"max" : 2147483647,
+								"step_size" : 1
+							},
+							"group" : "/Occlusion"
+						},
+						{
+							"channel" : {
+								"id" : "O Max Error",
+								"type" : "float",
+								"label" : "O Max Error",
+								"value" : 0.9,
+								"current_value" : 0.9,
+								"min" : 0,
+								"max" : 1,
+								"step_size" : 0.01
+							},
+							"group" : "/Occlusion"
+						},
+						{
+							"channel" : {
+								"id" : "O Max Solid Angle",
+								"type" : "float",
+								"label" : "O Max Solid Angle",
+								"value" : 0.5,
+								"current_value" : 0.5,
+								"min" : 0,
+								"max" : 1,
+								"step_size" : 0.01
+							},
+							"group" : "/Occlusion"
+						},
+						{
+							"channel" : {
+								"id" : "O Max Distance",
+								"type" : "float",
+								"label" : "O Max Distance",
+								"value" : 100,
+								"current_value" : 100,
+								"min" : -10000,
+								"max" : 10000,
+								"step_size" : 0.01
+							},
+							"group" : "/Occlusion"
+						},
+						{
+							"channel" : {
+								"id" : "O Number Samples",
+								"type" : "int",
+								"label" : "O Number Samples",
+								"value" : 2,
+								"current_value" : 2,
+								"min" : -2147483648,
+								"max" : 2147483647,
+								"step_size" : 1
+							},
+							"group" : "/Occlusion"
+						},
+						{
+							"channel" : {
+								"id" : "A Correct Gamma",
+								"type" : "bool",
+								"label" : "A Correct Gamma",
+								"value" : false,
+								"current_value" : false
+							},
+							"group" : "/Advanced"
+						},
+						{
+							"channel" : {
+								"id" : "A SpecularHitMode",
+								"type" : "enum",
+								"label" : "A SpecularHitMode",
+								"value" : 0,
+								"current_value" : 1,
+								"enum_values" : [ "Off", "Primitive", "Shader" ]
+							},
+							"group" : "/Advanced"
+						},
+						{
+							"channel" : {
+								"id" : "A DiffuseHitMode",
+								"type" : "enum",
+								"label" : "A DiffuseHitMode",
+								"value" : 0,
+								"current_value" : 1,
+								"enum_values" : [ "Off", "Primitive", "Shader" ]
+							},
+							"group" : "/Advanced"
+						},
+						{
+							"channel" : {
+								"id" : "A TransmissionHitMode",
+								"type" : "enum",
+								"label" : "A TransmissionHitMode",
+								"value" : 0,
+								"current_value" : 1,
+								"enum_values" : [ "Off", "Primitive", "Shader" ]
+							},
+							"group" : "/Advanced"
+						},
+						{
+							"channel" : {
+								"id" : "A CameraHitMode",
+								"type" : "enum",
+								"label" : "A CameraHitMode",
+								"value" : 0,
+								"current_value" : 2,
+								"enum_values" : [ "Off", "Primitive", "Shader" ]
+							},
+							"group" : "/Advanced"
+						}
+					]
+				}
+			]
+		}
+	],
+	"scene" : {
+		"nodes" : [
+			{
+				"id" : "Strand-Based Hair 1",
+				"url" : "/data/Joequick/Teddy/Fur2/Strand-Based%20Hair%201.dsf#Strand-Based%20Hair%201",
+				"name" : "Strand-Based Hair 1",
+				"label" : "Strand-Based Hair 1",
+				"parent" : "name://@selection:",
+				"geometries" : [
+					{
+						"id" : "Strand-Based Hair Material-1",
+						"name" : "Strand-Based Hair Material",
+						"label" : "shape",
+						"polygon_material_groups" : {
+							"count" : 9,
+							"values" : [
+								"Face",
+								"Lips",
+								"Torso",
+								"Ears",
+								"Legs",
+								"Arms",
+								"Fingernails",
+								"Toenails",
+								"Strand-Based Hair Material"
+							]
+						},
+						"extra" : [
+							{
+								"type" : "studio_geometry_channels",
+								"channels" : [
+									{
+										"channel" : {
+											"id" : "SubDIALevel",
+											"type" : "int",
+											"visible" : false,
+											"current_value" : 1
+										}
+									},
+									{
+										"channel" : {
+											"id" : "SubDRenderLevel",
+											"type" : "int",
+											"visible" : false,
+											"current_value" : 0
+										}
+									},
+									{
+										"channel" : {
+											"id" : "SubDAlgorithmControl",
+											"type" : "enum",
+											"visible" : false,
+											"current_value" : 0
+										}
+									},
+									{
+										"channel" : {
+											"id" : "SubDEdgeInterpolateLevel",
+											"type" : "enum",
+											"visible" : false,
+											"current_value" : 2
+										}
+									},
+									{
+										"channel" : {
+											"id" : "SubDNormalSmoothing",
+											"type" : "enum",
+											"visible" : false,
+											"current_value" : 0
+										}
+									}
+								]
+							}
+						]
+					}
+				],
+				"extra" : [
+					{
+						"type" : "studio/node/strand_hair"
+					},
+					{
+						"type" : "studio_node_channels",
+						"version" : 3,
+						"channels" : [
+							{
+								"channel" : {
+									"id" : "Fit To",
+									"type" : "node",
+									"node" : "name://@selection:"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Render Method",
+									"type" : "enum",
+									"current_value" : 1
+								}
+							}
+						]
+					}
+				]
+			}
+		],
+		"modifiers" : [
+			{
+				"id" : "Parent Geometry",
+				"url" : "/data/Joequick/Teddy/Fur2/Morphs/Joequick/Base/alias_Strand-Based%20Hair%201_Parent%20Geometry.dsf#Parent%20Geometry",
+				"parent" : "#Strand-Based%20Hair%201",
+				"channel" : {
+					"id" : "value",
+					"type" : "alias",
+					"name" : "Parent Geometry",
+					"target_channel" : "Strand-Based%20Hair%201:/data/Joequick/Teddy/Fur2/Strand-Based%20Hair%201.dsf#Strand-Based%20Hair%201?extra/studio_node_channels/channels/Fit%20To"
+				},
+				"group" : "/General/Misc"
+			}
+		],
+		"materials" : [
+			{
+				"id" : "Face",
+				"url" : "/data/Daz%203D/dForce%20Starter%20Essentials/Blended%20Dual%20Lobe%20Hair%20Shader/Blended%20Dual%20Lobe%20Hair.dsf#Blended%20Dual%20Lobe%20Hair",
+				"geometry" : "#Strand-Based%20Hair%20Material-1",
+				"groups" : [ "Face" ],
+				"diffuse" : {
+					"channel" : {
+						"id" : "diffuse",
+						"type" : "float_color",
+						"name" : "Diffuse Color",
+						"current_value" : [ 1, 1, 1 ]
+					},
+					"group" : "/Base/Diffuse"
+				},
+				"extra" : [
+					{
+						"type" : "studio/material/daz_brick"
+					},
+					{
+						"type" : "studio_material_channels",
+						"channels" : [
+							{
+								"channel" : {
+									"id" : "Line Start Width",
+									"type" : "float",
+									"current_value" : 0.5
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Line End Width",
+									"type" : "float",
+									"current_value" : 0.25
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Line UV Width",
+									"type" : "float",
+									"current_value" : 0.5
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Root Transmission Color",
+									"type" : "float_color",
+									"current_value" : [ 0.7529412, 0.7529412, 0.7529412 ],
+									"image_file" : "/Runtime/Textures/Joequick/Teddy/paintedfurteddy_glosscolor.jpg"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Tip Transmission Color",
+									"type" : "float_color",
+									"current_value" : [ 1, 1, 1 ],
+									"image_file" : "/Runtime/Textures/Joequick/Teddy/paintedfurteddy_glosscolor.jpg"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Hair Root Color",
+									"type" : "float_color",
+									"current_value" : [ 0.7529412, 0.7529412, 0.7529412 ],
+									"image_file" : "/Runtime/Textures/Joequick/Teddy/paintedfurteddy_glosscolor.jpg"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Hair Tip Color",
+									"type" : "float_color",
+									"value" : [ 0.7297401, 0.5325205, 0.3511192 ],
+									"current_value" : [ 1, 1, 1 ],
+									"image_file" : "/Runtime/Textures/Joequick/Teddy/paintedfurteddy_glosscolor.jpg"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "base_roughness",
+									"type" : "float",
+									"current_value" : 0.66,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Highlight Weight",
+									"type" : "float",
+									"current_value" : 0.11,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Highlight Root Color",
+									"type" : "float_color",
+									"current_value" : [ 1, 0.7960783, 0.6117644 ],
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Tip Highlight Color",
+									"type" : "float_color",
+									"current_value" : [ 1, 0.7960783, 0.6117644 ],
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "highlight_roughness",
+									"type" : "float",
+									"current_value" : 0.33,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "separation",
+									"type" : "float",
+									"current_value" : 0.1,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Anisotropy",
+									"type" : "float",
+									"current_value" : 1,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Anisotropy Rotations",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Bump Strength",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Cutout Opacity",
+									"type" : "float",
+									"current_value" : 1,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "strength",
+									"type" : "float",
+									"current_value" : 1,
+									"image" : null
+								}
+							}
+						]
+					}
+				]
+			},
+			{
+				"id" : "Lips",
+				"url" : "/data/Daz%203D/dForce%20Starter%20Essentials/Blended%20Dual%20Lobe%20Hair%20Shader/Blended%20Dual%20Lobe%20Hair.dsf#Blended%20Dual%20Lobe%20Hair",
+				"geometry" : "#Strand-Based%20Hair%20Material-1",
+				"groups" : [ "Lips" ],
+				"diffuse" : {
+					"channel" : {
+						"id" : "diffuse",
+						"type" : "float_color",
+						"name" : "Diffuse Color",
+						"current_value" : [ 1, 1, 1 ]
+					},
+					"group" : "/Base/Diffuse"
+				},
+				"extra" : [
+					{
+						"type" : "studio/material/daz_brick"
+					},
+					{
+						"type" : "studio_material_channels",
+						"channels" : [
+							{
+								"channel" : {
+									"id" : "Line Start Width",
+									"type" : "float",
+									"current_value" : 0.5
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Line End Width",
+									"type" : "float",
+									"current_value" : 0.25
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Line UV Width",
+									"type" : "float",
+									"current_value" : 0.5
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Root Transmission Color",
+									"type" : "float_color",
+									"current_value" : [ 0.7529412, 0.7529412, 0.7529412 ],
+									"image_file" : "/Runtime/Textures/Joequick/Teddy/paintedfurteddy_glosscolor.jpg"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Tip Transmission Color",
+									"type" : "float_color",
+									"current_value" : [ 1, 1, 1 ],
+									"image_file" : "/Runtime/Textures/Joequick/Teddy/paintedfurteddy_glosscolor.jpg"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Hair Root Color",
+									"type" : "float_color",
+									"current_value" : [ 0.7529412, 0.7529412, 0.7529412 ],
+									"image_file" : "/Runtime/Textures/Joequick/Teddy/paintedfurteddy_glosscolor.jpg"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Hair Tip Color",
+									"type" : "float_color",
+									"value" : [ 0.7297401, 0.5325205, 0.3511192 ],
+									"current_value" : [ 1, 1, 1 ],
+									"image_file" : "/Runtime/Textures/Joequick/Teddy/paintedfurteddy_glosscolor.jpg"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "base_roughness",
+									"type" : "float",
+									"current_value" : 0.66,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Highlight Weight",
+									"type" : "float",
+									"current_value" : 0.11,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Highlight Root Color",
+									"type" : "float_color",
+									"current_value" : [ 1, 0.7960783, 0.6117644 ],
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Tip Highlight Color",
+									"type" : "float_color",
+									"current_value" : [ 1, 0.7960783, 0.6117644 ],
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "highlight_roughness",
+									"type" : "float",
+									"current_value" : 0.33,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "separation",
+									"type" : "float",
+									"current_value" : 0.1,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Anisotropy",
+									"type" : "float",
+									"current_value" : 1,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Anisotropy Rotations",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Bump Strength",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Cutout Opacity",
+									"type" : "float",
+									"current_value" : 1,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "strength",
+									"type" : "float",
+									"current_value" : 1,
+									"image" : null
+								}
+							}
+						]
+					}
+				]
+			},
+			{
+				"id" : "Torso",
+				"url" : "/data/Daz%203D/dForce%20Starter%20Essentials/Blended%20Dual%20Lobe%20Hair%20Shader/Blended%20Dual%20Lobe%20Hair.dsf#Blended%20Dual%20Lobe%20Hair",
+				"geometry" : "#Strand-Based%20Hair%20Material-1",
+				"groups" : [ "Torso" ],
+				"diffuse" : {
+					"channel" : {
+						"id" : "diffuse",
+						"type" : "float_color",
+						"name" : "Diffuse Color",
+						"current_value" : [ 1, 1, 1 ]
+					},
+					"group" : "/Base/Diffuse"
+				},
+				"extra" : [
+					{
+						"type" : "studio/material/daz_brick"
+					},
+					{
+						"type" : "studio_material_channels",
+						"channels" : [
+							{
+								"channel" : {
+									"id" : "Line Start Width",
+									"type" : "float",
+									"current_value" : 0.5
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Line End Width",
+									"type" : "float",
+									"current_value" : 0.25
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Line UV Width",
+									"type" : "float",
+									"current_value" : 0.5
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Root Transmission Color",
+									"type" : "float_color",
+									"current_value" : [ 0.7529412, 0.7529412, 0.7529412 ],
+									"image_file" : "/Runtime/Textures/Joequick/Teddy/paintedfurteddy_glosscolor.jpg"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Tip Transmission Color",
+									"type" : "float_color",
+									"current_value" : [ 1, 1, 1 ],
+									"image_file" : "/Runtime/Textures/Joequick/Teddy/paintedfurteddy_glosscolor.jpg"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Hair Root Color",
+									"type" : "float_color",
+									"current_value" : [ 0.7529412, 0.7529412, 0.7529412 ],
+									"image_file" : "/Runtime/Textures/Joequick/Teddy/paintedfurteddy_glosscolor.jpg"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Hair Tip Color",
+									"type" : "float_color",
+									"value" : [ 0.7297401, 0.5325205, 0.3511192 ],
+									"current_value" : [ 1, 1, 1 ],
+									"image_file" : "/Runtime/Textures/Joequick/Teddy/paintedfurteddy_glosscolor.jpg"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "base_roughness",
+									"type" : "float",
+									"current_value" : 0.66,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Highlight Weight",
+									"type" : "float",
+									"current_value" : 0.11,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Highlight Root Color",
+									"type" : "float_color",
+									"current_value" : [ 1, 0.7960783, 0.6117644 ],
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Tip Highlight Color",
+									"type" : "float_color",
+									"current_value" : [ 1, 0.7960783, 0.6117644 ],
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "highlight_roughness",
+									"type" : "float",
+									"current_value" : 0.33,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "separation",
+									"type" : "float",
+									"current_value" : 0.1,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Anisotropy",
+									"type" : "float",
+									"current_value" : 1,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Anisotropy Rotations",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Bump Strength",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Cutout Opacity",
+									"type" : "float",
+									"current_value" : 1,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "strength",
+									"type" : "float",
+									"current_value" : 1,
+									"image" : null
+								}
+							}
+						]
+					}
+				]
+			},
+			{
+				"id" : "Ears",
+				"url" : "/data/Daz%203D/dForce%20Starter%20Essentials/Blended%20Dual%20Lobe%20Hair%20Shader/Blended%20Dual%20Lobe%20Hair.dsf#Blended%20Dual%20Lobe%20Hair",
+				"geometry" : "#Strand-Based%20Hair%20Material-1",
+				"groups" : [ "Ears" ],
+				"diffuse" : {
+					"channel" : {
+						"id" : "diffuse",
+						"type" : "float_color",
+						"name" : "Diffuse Color",
+						"current_value" : [ 1, 1, 1 ]
+					},
+					"group" : "/Base/Diffuse"
+				},
+				"extra" : [
+					{
+						"type" : "studio/material/daz_brick"
+					},
+					{
+						"type" : "studio_material_channels",
+						"channels" : [
+							{
+								"channel" : {
+									"id" : "Line Start Width",
+									"type" : "float",
+									"current_value" : 0.5
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Line End Width",
+									"type" : "float",
+									"current_value" : 0.25
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Line UV Width",
+									"type" : "float",
+									"current_value" : 0.5
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Root Transmission Color",
+									"type" : "float_color",
+									"current_value" : [ 0.7529412, 0.7529412, 0.7529412 ],
+									"image_file" : "/Runtime/Textures/Joequick/Teddy/paintedfurteddy_glosscolor.jpg"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Tip Transmission Color",
+									"type" : "float_color",
+									"current_value" : [ 1, 1, 1 ],
+									"image_file" : "/Runtime/Textures/Joequick/Teddy/paintedfurteddy_glosscolor.jpg"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Hair Root Color",
+									"type" : "float_color",
+									"current_value" : [ 0.7529412, 0.7529412, 0.7529412 ],
+									"image_file" : "/Runtime/Textures/Joequick/Teddy/paintedfurteddy_glosscolor.jpg"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Hair Tip Color",
+									"type" : "float_color",
+									"value" : [ 0.7297401, 0.5325205, 0.3511192 ],
+									"current_value" : [ 1, 1, 1 ],
+									"image_file" : "/Runtime/Textures/Joequick/Teddy/paintedfurteddy_glosscolor.jpg"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "base_roughness",
+									"type" : "float",
+									"current_value" : 0.66,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Highlight Weight",
+									"type" : "float",
+									"current_value" : 0.11,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Highlight Root Color",
+									"type" : "float_color",
+									"current_value" : [ 1, 0.7960783, 0.6117644 ],
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Tip Highlight Color",
+									"type" : "float_color",
+									"current_value" : [ 1, 0.7960783, 0.6117644 ],
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "highlight_roughness",
+									"type" : "float",
+									"current_value" : 0.33,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "separation",
+									"type" : "float",
+									"current_value" : 0.1,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Anisotropy",
+									"type" : "float",
+									"current_value" : 1,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Anisotropy Rotations",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Bump Strength",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Cutout Opacity",
+									"type" : "float",
+									"current_value" : 1,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "strength",
+									"type" : "float",
+									"current_value" : 1,
+									"image" : null
+								}
+							}
+						]
+					}
+				]
+			},
+			{
+				"id" : "Legs",
+				"url" : "/data/Daz%203D/dForce%20Starter%20Essentials/Blended%20Dual%20Lobe%20Hair%20Shader/Blended%20Dual%20Lobe%20Hair.dsf#Blended%20Dual%20Lobe%20Hair",
+				"geometry" : "#Strand-Based%20Hair%20Material-1",
+				"groups" : [ "Legs" ],
+				"diffuse" : {
+					"channel" : {
+						"id" : "diffuse",
+						"type" : "float_color",
+						"name" : "Diffuse Color",
+						"current_value" : [ 1, 1, 1 ]
+					},
+					"group" : "/Base/Diffuse"
+				},
+				"extra" : [
+					{
+						"type" : "studio/material/daz_brick"
+					},
+					{
+						"type" : "studio_material_channels",
+						"channels" : [
+							{
+								"channel" : {
+									"id" : "Line Start Width",
+									"type" : "float",
+									"current_value" : 0.5
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Line End Width",
+									"type" : "float",
+									"current_value" : 0.25
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Line UV Width",
+									"type" : "float",
+									"current_value" : 0.5
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Root Transmission Color",
+									"type" : "float_color",
+									"current_value" : [ 0.7529412, 0.7529412, 0.7529412 ],
+									"image_file" : "/Runtime/Textures/Joequick/Teddy/paintedfurteddy_glosscolor.jpg"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Tip Transmission Color",
+									"type" : "float_color",
+									"current_value" : [ 1, 1, 1 ],
+									"image_file" : "/Runtime/Textures/Joequick/Teddy/paintedfurteddy_glosscolor.jpg"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Hair Root Color",
+									"type" : "float_color",
+									"current_value" : [ 0.7529412, 0.7529412, 0.7529412 ],
+									"image_file" : "/Runtime/Textures/Joequick/Teddy/paintedfurteddy_glosscolor.jpg"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Hair Tip Color",
+									"type" : "float_color",
+									"value" : [ 0.7297401, 0.5325205, 0.3511192 ],
+									"current_value" : [ 1, 1, 1 ],
+									"image_file" : "/Runtime/Textures/Joequick/Teddy/paintedfurteddy_glosscolor.jpg"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "base_roughness",
+									"type" : "float",
+									"current_value" : 0.66,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Highlight Weight",
+									"type" : "float",
+									"current_value" : 0.11,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Highlight Root Color",
+									"type" : "float_color",
+									"current_value" : [ 1, 0.7960783, 0.6117644 ],
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Tip Highlight Color",
+									"type" : "float_color",
+									"current_value" : [ 1, 0.7960783, 0.6117644 ],
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "highlight_roughness",
+									"type" : "float",
+									"current_value" : 0.33,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "separation",
+									"type" : "float",
+									"current_value" : 0.1,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Anisotropy",
+									"type" : "float",
+									"current_value" : 1,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Anisotropy Rotations",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Bump Strength",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Cutout Opacity",
+									"type" : "float",
+									"current_value" : 1,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "strength",
+									"type" : "float",
+									"current_value" : 1,
+									"image" : null
+								}
+							}
+						]
+					}
+				]
+			},
+			{
+				"id" : "Arms",
+				"url" : "/data/Daz%203D/dForce%20Starter%20Essentials/Blended%20Dual%20Lobe%20Hair%20Shader/Blended%20Dual%20Lobe%20Hair.dsf#Blended%20Dual%20Lobe%20Hair",
+				"geometry" : "#Strand-Based%20Hair%20Material-1",
+				"groups" : [ "Arms" ],
+				"diffuse" : {
+					"channel" : {
+						"id" : "diffuse",
+						"type" : "float_color",
+						"name" : "Diffuse Color",
+						"current_value" : [ 1, 1, 1 ]
+					},
+					"group" : "/Base/Diffuse"
+				},
+				"extra" : [
+					{
+						"type" : "studio/material/daz_brick"
+					},
+					{
+						"type" : "studio_material_channels",
+						"channels" : [
+							{
+								"channel" : {
+									"id" : "Line Start Width",
+									"type" : "float",
+									"current_value" : 0.5
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Line End Width",
+									"type" : "float",
+									"current_value" : 0.25
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Line UV Width",
+									"type" : "float",
+									"current_value" : 0.5
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Root Transmission Color",
+									"type" : "float_color",
+									"current_value" : [ 0.7529412, 0.7529412, 0.7529412 ],
+									"image_file" : "/Runtime/Textures/Joequick/Teddy/paintedfurteddy_glosscolor.jpg"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Tip Transmission Color",
+									"type" : "float_color",
+									"current_value" : [ 1, 1, 1 ],
+									"image_file" : "/Runtime/Textures/Joequick/Teddy/paintedfurteddy_glosscolor.jpg"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Hair Root Color",
+									"type" : "float_color",
+									"current_value" : [ 0.7529412, 0.7529412, 0.7529412 ],
+									"image_file" : "/Runtime/Textures/Joequick/Teddy/paintedfurteddy_glosscolor.jpg"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Hair Tip Color",
+									"type" : "float_color",
+									"value" : [ 0.7297401, 0.5325205, 0.3511192 ],
+									"current_value" : [ 1, 1, 1 ],
+									"image_file" : "/Runtime/Textures/Joequick/Teddy/paintedfurteddy_glosscolor.jpg"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "base_roughness",
+									"type" : "float",
+									"current_value" : 0.66,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Highlight Weight",
+									"type" : "float",
+									"current_value" : 0.11,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Highlight Root Color",
+									"type" : "float_color",
+									"current_value" : [ 1, 0.7960783, 0.6117644 ],
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Tip Highlight Color",
+									"type" : "float_color",
+									"current_value" : [ 1, 0.7960783, 0.6117644 ],
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "highlight_roughness",
+									"type" : "float",
+									"current_value" : 0.33,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "separation",
+									"type" : "float",
+									"current_value" : 0.1,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Anisotropy",
+									"type" : "float",
+									"current_value" : 1,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Anisotropy Rotations",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Bump Strength",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Cutout Opacity",
+									"type" : "float",
+									"current_value" : 1,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "strength",
+									"type" : "float",
+									"current_value" : 1,
+									"image" : null
+								}
+							}
+						]
+					}
+				]
+			},
+			{
+				"id" : "Fingernails",
+				"url" : "/data/Daz%203D/dForce%20Starter%20Essentials/Blended%20Dual%20Lobe%20Hair%20Shader/Blended%20Dual%20Lobe%20Hair.dsf#Blended%20Dual%20Lobe%20Hair",
+				"geometry" : "#Strand-Based%20Hair%20Material-1",
+				"groups" : [ "Fingernails" ],
+				"diffuse" : {
+					"channel" : {
+						"id" : "diffuse",
+						"type" : "float_color",
+						"name" : "Diffuse Color",
+						"current_value" : [ 1, 1, 1 ]
+					},
+					"group" : "/Base/Diffuse"
+				},
+				"extra" : [
+					{
+						"type" : "studio/material/daz_brick"
+					},
+					{
+						"type" : "studio_material_channels",
+						"channels" : [
+							{
+								"channel" : {
+									"id" : "Line Start Width",
+									"type" : "float",
+									"current_value" : 0.5
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Line End Width",
+									"type" : "float",
+									"current_value" : 0.25
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Line UV Width",
+									"type" : "float",
+									"current_value" : 0.5
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Root Transmission Color",
+									"type" : "float_color",
+									"current_value" : [ 0.7529412, 0.7529412, 0.7529412 ],
+									"image_file" : "/Runtime/Textures/Joequick/Teddy/paintedfurteddy_glosscolor.jpg"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Tip Transmission Color",
+									"type" : "float_color",
+									"current_value" : [ 1, 1, 1 ],
+									"image_file" : "/Runtime/Textures/Joequick/Teddy/paintedfurteddy_glosscolor.jpg"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Hair Root Color",
+									"type" : "float_color",
+									"current_value" : [ 0.7529412, 0.7529412, 0.7529412 ],
+									"image_file" : "/Runtime/Textures/Joequick/Teddy/paintedfurteddy_glosscolor.jpg"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Hair Tip Color",
+									"type" : "float_color",
+									"value" : [ 0.7297401, 0.5325205, 0.3511192 ],
+									"current_value" : [ 1, 1, 1 ],
+									"image_file" : "/Runtime/Textures/Joequick/Teddy/paintedfurteddy_glosscolor.jpg"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "base_roughness",
+									"type" : "float",
+									"current_value" : 0.66,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Highlight Weight",
+									"type" : "float",
+									"current_value" : 0.11,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Highlight Root Color",
+									"type" : "float_color",
+									"current_value" : [ 1, 0.7960783, 0.6117644 ],
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Tip Highlight Color",
+									"type" : "float_color",
+									"current_value" : [ 1, 0.7960783, 0.6117644 ],
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "highlight_roughness",
+									"type" : "float",
+									"current_value" : 0.33,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "separation",
+									"type" : "float",
+									"current_value" : 0.1,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Anisotropy",
+									"type" : "float",
+									"current_value" : 1,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Anisotropy Rotations",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Bump Strength",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Cutout Opacity",
+									"type" : "float",
+									"current_value" : 1,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "strength",
+									"type" : "float",
+									"current_value" : 1,
+									"image" : null
+								}
+							}
+						]
+					}
+				]
+			},
+			{
+				"id" : "Toenails",
+				"url" : "/data/Daz%203D/dForce%20Starter%20Essentials/Blended%20Dual%20Lobe%20Hair%20Shader/Blended%20Dual%20Lobe%20Hair.dsf#Blended%20Dual%20Lobe%20Hair",
+				"geometry" : "#Strand-Based%20Hair%20Material-1",
+				"groups" : [ "Toenails" ],
+				"diffuse" : {
+					"channel" : {
+						"id" : "diffuse",
+						"type" : "float_color",
+						"name" : "Diffuse Color",
+						"current_value" : [ 1, 1, 1 ]
+					},
+					"group" : "/Base/Diffuse"
+				},
+				"extra" : [
+					{
+						"type" : "studio/material/daz_brick"
+					},
+					{
+						"type" : "studio_material_channels",
+						"channels" : [
+							{
+								"channel" : {
+									"id" : "Line Start Width",
+									"type" : "float",
+									"current_value" : 0.5
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Line End Width",
+									"type" : "float",
+									"current_value" : 0.25
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Line UV Width",
+									"type" : "float",
+									"current_value" : 0.5
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Root Transmission Color",
+									"type" : "float_color",
+									"current_value" : [ 0.7529412, 0.7529412, 0.7529412 ],
+									"image_file" : "/Runtime/Textures/Joequick/Teddy/paintedfurteddy_glosscolor.jpg"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Tip Transmission Color",
+									"type" : "float_color",
+									"current_value" : [ 1, 1, 1 ],
+									"image_file" : "/Runtime/Textures/Joequick/Teddy/paintedfurteddy_glosscolor.jpg"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Hair Root Color",
+									"type" : "float_color",
+									"current_value" : [ 0.7529412, 0.7529412, 0.7529412 ],
+									"image_file" : "/Runtime/Textures/Joequick/Teddy/paintedfurteddy_glosscolor.jpg"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Hair Tip Color",
+									"type" : "float_color",
+									"value" : [ 0.7297401, 0.5325205, 0.3511192 ],
+									"current_value" : [ 1, 1, 1 ],
+									"image_file" : "/Runtime/Textures/Joequick/Teddy/paintedfurteddy_glosscolor.jpg"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "base_roughness",
+									"type" : "float",
+									"current_value" : 0.66,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Highlight Weight",
+									"type" : "float",
+									"current_value" : 0.11,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Highlight Root Color",
+									"type" : "float_color",
+									"current_value" : [ 1, 0.7960783, 0.6117644 ],
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Tip Highlight Color",
+									"type" : "float_color",
+									"current_value" : [ 1, 0.7960783, 0.6117644 ],
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "highlight_roughness",
+									"type" : "float",
+									"current_value" : 0.33,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "separation",
+									"type" : "float",
+									"current_value" : 0.1,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Anisotropy",
+									"type" : "float",
+									"current_value" : 1,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Anisotropy Rotations",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Bump Strength",
+									"type" : "float",
+									"current_value" : 0,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Cutout Opacity",
+									"type" : "float",
+									"current_value" : 1,
+									"image" : null
+								}
+							},
+							{
+								"channel" : {
+									"id" : "strength",
+									"type" : "float",
+									"current_value" : 1,
+									"image" : null
+								}
+							}
+						]
+					}
+				]
+			},
+			{
+				"id" : "Strand-Based Hair Material-2",
+				"url" : "#Strand-Based%20Hair%20Material",
+				"geometry" : "#Strand-Based%20Hair%20Material-1",
+				"groups" : [ "Strand-Based Hair Material" ],
+				"extra" : [
+					{
+						"type" : "studio/material/strand_hair_rsl"
+					}
+				]
+			}
+		]
+	}
+}

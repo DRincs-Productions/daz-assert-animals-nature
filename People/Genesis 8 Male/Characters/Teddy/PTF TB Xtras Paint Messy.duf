@@ -1,0 +1,691 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/People/Genesis%208%20Male/Characters/Teddy/Body%20MATs/PTF%20TB%20Xtras%20Paint%Messy.duf",
+		"type" : "preset_material",
+		"contributor" : {
+			"author" : "pixeltizzyfit",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2020-06-08T05:41:44Z"
+	},
+	"image_library" : [
+		{
+			"id" : "PTF_Paint_Messy.png-7",
+			"name" : "PTF_Paint_Messy.png",
+			"map_gamma" : 0,
+			"map" : [
+				{
+					"url" : "/Runtime/Textures/PixelTizzyFit/Teddy%20Bear/PTF_Paint_Messy.png",
+					"label" : "PTF_Paint_Messy.png"
+				}
+			]
+		}
+	],
+	"material_library" : [
+		{
+			"id" : "Face",
+			"extra" : [
+				{
+					"type" : "studio/material/uber_iray",
+					"version" : "1.1.0.0"
+				},
+				{
+					"type" : "studio_material_channels",
+					"channels" : [
+						{
+							"channel" : {
+								"id" : "Diffuse Overlay Color",
+								"type" : "float_color",
+								"label" : "Diffuse Overlay Color",
+								"value" : [ 0.7529412, 0.7529412, 0.7529412 ],
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"step_size" : 1,
+								"default_image_gamma" : 0,
+								"mappable" : true
+							},
+							"group" : "/Base/Diffuse/Overlay",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.345098, 0.5019608, 0.6588235 ], [ 0.5019608, 0.5019608, 0.5019608 ] ]
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"id" : "Lips",
+			"extra" : [
+				{
+					"type" : "studio/material/uber_iray",
+					"version" : "1.1.0.0"
+				},
+				{
+					"type" : "studio_material_channels",
+					"channels" : [
+						{
+							"channel" : {
+								"id" : "Diffuse Overlay Color",
+								"type" : "float_color",
+								"label" : "Diffuse Overlay Color",
+								"value" : [ 0.7529412, 0.7529412, 0.7529412 ],
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"step_size" : 1,
+								"default_image_gamma" : 0,
+								"mappable" : true
+							},
+							"group" : "/Base/Diffuse/Overlay",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.345098, 0.5019608, 0.6588235 ], [ 0.5019608, 0.5019608, 0.5019608 ] ]
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"id" : "Torso",
+			"extra" : [
+				{
+					"type" : "studio/material/uber_iray",
+					"version" : "1.1.0.0"
+				},
+				{
+					"type" : "studio_material_channels",
+					"channels" : [
+						{
+							"channel" : {
+								"id" : "Diffuse Overlay Color",
+								"type" : "float_color",
+								"label" : "Diffuse Overlay Color",
+								"value" : [ 0.7529412, 0.7529412, 0.7529412 ],
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"step_size" : 1,
+								"default_image_gamma" : 0,
+								"mappable" : true
+							},
+							"group" : "/Base/Diffuse/Overlay",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.345098, 0.5019608, 0.6588235 ], [ 0.5019608, 0.5019608, 0.5019608 ] ]
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"id" : "Ears",
+			"extra" : [
+				{
+					"type" : "studio/material/uber_iray",
+					"version" : "1.1.0.0"
+				},
+				{
+					"type" : "studio_material_channels",
+					"channels" : [
+						{
+							"channel" : {
+								"id" : "Diffuse Overlay Color",
+								"type" : "float_color",
+								"label" : "Diffuse Overlay Color",
+								"value" : [ 0.7529412, 0.7529412, 0.7529412 ],
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"step_size" : 1,
+								"default_image_gamma" : 0,
+								"mappable" : true
+							},
+							"group" : "/Base/Diffuse/Overlay",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.345098, 0.5019608, 0.6588235 ], [ 0.5019608, 0.5019608, 0.5019608 ] ]
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"id" : "Legs",
+			"extra" : [
+				{
+					"type" : "studio/material/uber_iray",
+					"version" : "1.1.0.0"
+				},
+				{
+					"type" : "studio_material_channels",
+					"channels" : [
+						{
+							"channel" : {
+								"id" : "Diffuse Overlay Color",
+								"type" : "float_color",
+								"label" : "Diffuse Overlay Color",
+								"value" : [ 0.7529412, 0.7529412, 0.7529412 ],
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"step_size" : 1,
+								"default_image_gamma" : 0,
+								"mappable" : true
+							},
+							"group" : "/Base/Diffuse/Overlay",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.345098, 0.5019608, 0.6588235 ], [ 0.5019608, 0.5019608, 0.5019608 ] ]
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"id" : "Arms",
+			"extra" : [
+				{
+					"type" : "studio/material/uber_iray",
+					"version" : "1.1.0.0"
+				},
+				{
+					"type" : "studio_material_channels",
+					"channels" : [
+						{
+							"channel" : {
+								"id" : "Diffuse Overlay Color",
+								"type" : "float_color",
+								"label" : "Diffuse Overlay Color",
+								"value" : [ 0.7529412, 0.7529412, 0.7529412 ],
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"step_size" : 1,
+								"default_image_gamma" : 0,
+								"mappable" : true
+							},
+							"group" : "/Base/Diffuse/Overlay",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.345098, 0.5019608, 0.6588235 ], [ 0.5019608, 0.5019608, 0.5019608 ] ]
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"id" : "Fingernails",
+			"extra" : [
+				{
+					"type" : "studio/material/uber_iray",
+					"version" : "1.1.0.0"
+				},
+				{
+					"type" : "studio_material_channels",
+					"channels" : [
+						{
+							"channel" : {
+								"id" : "Diffuse Overlay Color",
+								"type" : "float_color",
+								"label" : "Diffuse Overlay Color",
+								"value" : [ 0.7529412, 0.7529412, 0.7529412 ],
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"step_size" : 1,
+								"default_image_gamma" : 0,
+								"mappable" : true
+							},
+							"group" : "/Base/Diffuse/Overlay",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.345098, 0.5019608, 0.6588235 ], [ 0.5019608, 0.5019608, 0.5019608 ] ]
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"id" : "Toenails",
+			"extra" : [
+				{
+					"type" : "studio/material/uber_iray",
+					"version" : "1.1.0.0"
+				},
+				{
+					"type" : "studio_material_channels",
+					"channels" : [
+						{
+							"channel" : {
+								"id" : "Diffuse Overlay Color",
+								"type" : "float_color",
+								"label" : "Diffuse Overlay Color",
+								"value" : [ 0.7529412, 0.7529412, 0.7529412 ],
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"step_size" : 1,
+								"default_image_gamma" : 0,
+								"mappable" : true
+							},
+							"group" : "/Base/Diffuse/Overlay",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.345098, 0.5019608, 0.6588235 ], [ 0.5019608, 0.5019608, 0.5019608 ] ]
+							}
+						}
+					]
+				}
+			]
+		}
+	],
+	"scene" : {
+		"materials" : [
+			{
+				"url" : "#Face",
+				"groups" : [ "Face" ],
+				"extra" : [
+					{
+						"type" : "studio/material/uber_iray",
+						"version" : "1.1.0.0"
+					}
+				]
+			},
+			{
+				"url" : "#Lips",
+				"groups" : [ "Lips" ],
+				"extra" : [
+					{
+						"type" : "studio/material/uber_iray",
+						"version" : "1.1.0.0"
+					}
+				]
+			},
+			{
+				"url" : "#Torso",
+				"groups" : [ "Torso" ],
+				"extra" : [
+					{
+						"type" : "studio/material/uber_iray",
+						"version" : "1.1.0.0"
+					}
+				]
+			},
+			{
+				"url" : "#Ears",
+				"groups" : [ "Ears" ],
+				"extra" : [
+					{
+						"type" : "studio/material/uber_iray",
+						"version" : "1.1.0.0"
+					}
+				]
+			},
+			{
+				"url" : "#Legs",
+				"groups" : [ "Legs" ],
+				"extra" : [
+					{
+						"type" : "studio/material/uber_iray",
+						"version" : "1.1.0.0"
+					}
+				]
+			},
+			{
+				"url" : "#Arms",
+				"groups" : [ "Arms" ],
+				"extra" : [
+					{
+						"type" : "studio/material/uber_iray",
+						"version" : "1.1.0.0"
+					}
+				]
+			},
+			{
+				"url" : "#Fingernails",
+				"groups" : [ "Fingernails" ],
+				"extra" : [
+					{
+						"type" : "studio/material/uber_iray",
+						"version" : "1.1.0.0"
+					}
+				]
+			},
+			{
+				"url" : "#Toenails",
+				"groups" : [ "Toenails" ],
+				"extra" : [
+					{
+						"type" : "studio/material/uber_iray",
+						"version" : "1.1.0.0"
+					}
+				]
+			}
+		],
+		"animations" : [
+			{
+				"url" : "name://@selection#materials/Arms:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/value",
+				"keys" : [ [ 0, [ 1, 1, 1 ] ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Arms:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image_file",
+				"keys" : [ [ 0, "/Runtime/Textures/PixelTizzyFit/Teddy%20Bear/PTF_Paint_Messy.png" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Arms:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Arms:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Arms:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Arms:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Arms:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Arms:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Arms:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Ears:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/value",
+				"keys" : [ [ 0, [ 1, 1, 1 ] ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Ears:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image_file",
+				"keys" : [ [ 0, "/Runtime/Textures/PixelTizzyFit/Teddy%20Bear/PTF_Paint_Messy.png" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Ears:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Ears:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Ears:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Ears:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Ears:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Ears:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Ears:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Face:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/value",
+				"keys" : [ [ 0, [ 1, 1, 1 ] ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Face:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image_file",
+				"keys" : [ [ 0, "/Runtime/Textures/PixelTizzyFit/Teddy%20Bear/PTF_Paint_Messy.png" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Face:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Face:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Face:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Face:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Face:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Face:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Face:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Fingernails:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/value",
+				"keys" : [ [ 0, [ 1, 1, 1 ] ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Fingernails:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image_file",
+				"keys" : [ [ 0, "/Runtime/Textures/PixelTizzyFit/Teddy%20Bear/PTF_Paint_Messy.png" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Fingernails:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Fingernails:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Fingernails:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Fingernails:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Fingernails:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Fingernails:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Fingernails:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Legs:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/value",
+				"keys" : [ [ 0, [ 1, 1, 1 ] ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Legs:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image_file",
+				"keys" : [ [ 0, "/Runtime/Textures/PixelTizzyFit/Teddy%20Bear/PTF_Paint_Messy.png" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Legs:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Legs:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Legs:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Legs:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Legs:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Legs:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Legs:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Lips:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/value",
+				"keys" : [ [ 0, [ 1, 1, 1 ] ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Lips:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image_file",
+				"keys" : [ [ 0, "/Runtime/Textures/PixelTizzyFit/Teddy%20Bear/PTF_Paint_Messy.png" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Lips:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Lips:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Lips:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Lips:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Lips:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Lips:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Lips:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Toenails:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/value",
+				"keys" : [ [ 0, [ 1, 1, 1 ] ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Toenails:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image_file",
+				"keys" : [ [ 0, "/Runtime/Textures/PixelTizzyFit/Teddy%20Bear/PTF_Paint_Messy.png" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Toenails:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Toenails:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Toenails:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Toenails:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Toenails:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Toenails:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Toenails:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Torso:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/value",
+				"keys" : [ [ 0, [ 1, 1, 1 ] ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Torso:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image_file",
+				"keys" : [ [ 0, "/Runtime/Textures/PixelTizzyFit/Teddy%20Bear/PTF_Paint_Messy.png" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Torso:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Torso:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Torso:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Torso:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Torso:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Torso:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Torso:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			}
+		]
+	}
+}
